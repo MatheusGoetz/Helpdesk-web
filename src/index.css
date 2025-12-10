@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+	--default-font-family: "Lato", sans-serif;
+
+	--color-blue-900: #2e3da3;
+	--color-blue-600: #355ec5;
+	--color-blue-500: #5165e1;
+	--color-blue-300: #8996eb;
+
+	--color-red-200: #d03e3e;
+	--color-red-100: #cc3d6a;
+
+	--color-green-300: #508b26;
+}

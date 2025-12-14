@@ -4,7 +4,7 @@ type Props = React.ComponentProps<"input"> & {
 
 export function Input({ legend, type = "text", ...rest }: Props) {
 	return (
-		<fieldset className="flex flex-1 max-h-20 focus-within:text-blue-600">
+		<fieldset className="flex flex-1 max-h-20 text-gray-700 focus-within:text-blue-600">
 			{legend && (
 				<legend className="uppercase flex justify-center font-bold text-sm text-inherit">
 					{legend}
